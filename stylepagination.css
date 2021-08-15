@@ -1,0 +1,31 @@
+body{
+    background-color: lavender;
+    margin: auto;
+}
+.unorderedList{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.list{
+    width:500px;
+    background-color:lightblue;
+    padding: 10px;
+
+
+}
+.paginator{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+}
+button{
+    background-color: rgb(44, 10, 236);
+}
